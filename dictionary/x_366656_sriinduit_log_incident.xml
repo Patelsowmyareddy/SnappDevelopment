@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="log incident" max_length="40" name="x_366656_sriinduit_log_incident" sizeclass="3" type="collection">
+        <element default="NO History data" label="History" max_length="100" name="history" type="journal"/>
+        <element choice="1" default="default" label="incident contact type" max_length="100" name="incident_contact_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="email" value="mail"/>
+                <element inactive_on_update="false" label="phone no" value="9865337678"/>
+            </choice>
+        </element>
+        <element label="logdesk" max_length="32" name="logdesk" reference="sys_user" reference_qual="cityLIKEcolleges^active=true^EQ" reference_qual_condition="cityLIKEcolleges^active=true^EQ" type="reference"/>
+        <element default="default desc" label="Sriindu desc" max_length="100" name="sriindu_desc" read_only="true" type="string"/>
+        <element default="Test default" label="Sriindu short description" max_length="100" name="sriindu_short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Date" max_length="40" name="u_glide_date_1" type="glide_date"/>
+    </element>
+</database>

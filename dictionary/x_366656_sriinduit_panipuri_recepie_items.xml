@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="panipuri recepie items" max_length="40" name="x_366656_sriinduit_panipuri_recepie_items" type="collection">
+        <element default="no batani" label="Batani" max_length="133" name="batani" type="longint"/>
+        <element default="no carrots" label="carrot" max_length="200" name="carrot" type="longint"/>
+        <element label="Ingrediants" max_length="100" name="ingrediants" type="longint"/>
+        <element default="no onions" label="onions" max_length="123" name="onions" type="longint"/>
+        <element default="no water" label="water" max_length="100" name="water" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Ingredients" max_length="40" name="x_366656_sriinduit_ingredients" type="collection"/>
+</database>
