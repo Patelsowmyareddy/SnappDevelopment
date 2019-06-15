@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="visitor table" max_length="40" name="x_366656_sriinduit_visitor_table" type="collection">
+        <element label="Adddress" max_length="100" name="adddress" type="string"/>
+        <element choice="1" label="Area" max_length="40" name="area" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="local" value="local"/>
+                <element inactive_on_update="false" label="Non local" value="Non local"/>
+            </choice>
+        </element>
+        <element label="Email" max_length="100" name="email" type="string"/>
+        <element label="Improvement Suggestion" max_length="200" name="improvement_suggestion" type="string"/>
+        <element label="In date" max_length="40" name="in_date" type="glide_date"/>
+        <element label="In time" max_length="40" name="in_time" type="glide_time"/>
+        <element label="Name" max_length="100" name="name" type="string"/>
+        <element label="Out date" max_length="40" name="out_date" type="glide_date"/>
+        <element label="Out time" max_length="40" name="out_time" type="glide_time"/>
+        <element label="Phone" max_length="100" name="phone" type="phone_number_e164"/>
+        <element label="Purpose of visit" max_length="200" name="purpose_of_visit" type="string"/>
+        <element choice="1" label="visit rating" max_length="100" name="visit_rating" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1" value="1"/>
+                <element inactive_on_update="false" label="2" value="2"/>
+                <element inactive_on_update="false" label="3" value="3"/>
+                <element inactive_on_update="false" label="4" value="4"/>
+                <element inactive_on_update="false" label="5" value="5"/>
+            </choice>
+        </element>
+        <element label="Whom to meet" max_length="200" name="whom_to_meet" type="string"/>
+    </element>
+</database>

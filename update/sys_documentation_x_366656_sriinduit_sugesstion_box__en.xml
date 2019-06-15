@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Sugesstion box" language="en" table="x_366656_sriinduit_sugesstion_box">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Sugesstion box</label>
+            <language>en</language>
+            <name>x_366656_sriinduit_sugesstion_box</name>
+            <plural>Sugesstion boxes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-15 00:10:32</sys_created_on>
+            <sys_id>d046eda1dbca3300bdfd0181ca96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Sugesstion box</sys_name>
+            <sys_package display_value="SRIINDUIT" source="x_366656_sriinduit">83cbb554db423300ce0bf53a29961923</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SRIINDUIT">83cbb554db423300ce0bf53a29961923</sys_scope>
+            <sys_update_name>sys_documentation_x_366656_sriinduit_sugesstion_box__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-15 00:10:32</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

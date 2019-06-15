@@ -53,15 +53,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-06-11 09:36:47</sys_created_on>
-        <sys_id>8a604fdcdbc23300ce0bf53a2996199b</sys_id>
+        <sys_id>8ccd4699dbc23300bdfd0181ca961961</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>onions</sys_name>
         <sys_package display_value="SRIINDUIT" source="x_366656_sriinduit">83cbb554db423300ce0bf53a29961923</sys_package>
         <sys_policy/>
         <sys_scope display_value="SRIINDUIT">83cbb554db423300ce0bf53a29961923</sys_scope>
         <sys_update_name>sys_dictionary_x_366656_sriinduit_panipuri_recepie_items_onions</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-11 09:36:47</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-06-14 08:24:41</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -40,7 +40,6 @@ var logincbkp=new GlideRecord("x_366656_sriinduit_logincident_backup");
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-06-13 05:25:59</sys_created_on>
         <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
         <sys_id>16369441dbca7300ce0bf53a2996190f</sys_id>
         <sys_mod_count>6</sys_mod_count>
         <sys_name>log incident backup</sys_name>

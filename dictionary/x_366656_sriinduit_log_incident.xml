@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="log incident" max_length="40" name="x_366656_sriinduit_log_incident" sizeclass="3" type="collection">
+    <element extends="task" label="log incident" max_length="40" name="x_366656_sriinduit_log_incident" sizeclass="2" type="collection">
+        <element choice="1" label="Category" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Hardware" value="Hardware"/>
+                <element inactive_on_update="false" label="software" value="software"/>
+            </choice>
+        </element>
         <element default="NO History data" label="History" max_length="100" name="history" type="journal"/>
         <element choice="1" default="default" label="incident contact type" max_length="100" name="incident_contact_type" type="choice">
             <choice>

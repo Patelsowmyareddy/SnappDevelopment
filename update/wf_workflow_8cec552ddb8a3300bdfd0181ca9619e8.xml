@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"ends":["44ec552ddb8a3300bdfd0181ca9619ea"],"stages":{},"activities":{},"subflows":[]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition table="x_366656_sriinduit_visitor_table">emailANYTHING^EQ<item endquery="false" field="email" goto="false" newquery="false" operator="ANYTHING" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <condition_type>run_match</condition_type>
+        <description>workflow for visitor table.</description>
+        <expected_sequences>08ec552ddb8a3300bdfd0181ca9619e9,60fcd92ddb8a3300bdfd0181ca96192b,8e4d552ddb8a3300bdfd0181ca9619ff,44ec552ddb8a3300bdfd0181ca9619ea</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>08ec552ddb8a3300bdfd0181ca9619e9,60fcd92ddb8a3300bdfd0181ca96192b,8e4d552ddb8a3300bdfd0181ca9619ff,44ec552ddb8a3300bdfd0181ca9619ea</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>visitor process flow</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">08ec552ddb8a3300bdfd0181ca9619e9</start>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-14 23:29:33</sys_created_on>
+        <sys_id>b68cd52ddb8a3300bdfd0181ca961963</sys_id>
+        <sys_mod_count>47</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-14 23:34:24</sys_updated_on>
+        <table>x_366656_sriinduit_visitor_table</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="visitor process flow">8cec552ddb8a3300bdfd0181ca9619e8</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description>workflow for visitor table.</description>
+        <name>visitor process flow</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-14 23:29:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>8cec552ddb8a3300bdfd0181ca9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>visitor process flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SRIINDUIT" source="x_366656_sriinduit">83cbb554db423300ce0bf53a29961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SRIINDUIT">83cbb554db423300ce0bf53a29961923</sys_scope>
+        <sys_update_name>wf_workflow_8cec552ddb8a3300bdfd0181ca9619e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-14 23:29:33</sys_updated_on>
+        <table>x_366656_sriinduit_visitor_table</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-14 23:29:33</sys_created_on>
+        <sys_id>08ec552ddb8a3300bdfd0181ca9619e9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-14 23:33:17</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="visitor process flow">b68cd52ddb8a3300bdfd0181ca961963</workflow_version>
+        <x>19</x>
+        <y>76</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=08ec552ddb8a3300bdfd0181ca9619e9"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">08ec552ddb8a3300bdfd0181ca9619e9</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-14 23:29:33</sys_created_on>
+        <sys_id>00ec552ddb8a3300bdfd0181ca9619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-14 23:29:33</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-14 23:29:33</sys_created_on>
+        <sys_id>44ec552ddb8a3300bdfd0181ca9619ea</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-14 23:33:05</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="visitor process flow">b68cd52ddb8a3300bdfd0181ca961963</workflow_version>
+        <x>771</x>
+        <y>362</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=44ec552ddb8a3300bdfd0181ca9619ea"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>If condition</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-14 23:30:46</sys_created_on>
+        <sys_id>60fcd92ddb8a3300bdfd0181ca96192b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-14 23:30:53</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="visitor process flow">b68cd52ddb8a3300bdfd0181ca961963</workflow_version>
+        <x>23</x>
+        <y>310</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=60fcd92ddb8a3300bdfd0181ca96192b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>60fcd92ddb8a3300bdfd0181ca96192b</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-14 23:30:46</sys_created_on>
+        <sys_id>b92d992ddb8a3300bdfd0181ca9619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-14 23:30:46</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>60fcd92ddb8a3300bdfd0181ca96192b</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-14 23:30:46</sys_created_on>
+        <sys_id>f52d992ddb8a3300bdfd0181ca9619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-14 23:30:46</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>60fcd92ddb8a3300bdfd0181ca96192b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-14 23:30:46</sys_created_on>
+        <sys_id>fd2d992ddb8a3300bdfd0181ca9619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-14 23:30:46</sys_updated_on>
+        <value>area=local^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>60fcd92ddb8a3300bdfd0181ca96192b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-14 23:30:46</sys_created_on>
+        <sys_id>fd2d992ddb8a3300bdfd0181ca9619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-14 23:30:46</sys_updated_on>
+        <value>area=local^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>60fcd92ddb8a3300bdfd0181ca96192b</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-14 23:30:46</sys_created_on>
+        <sys_id>f52d992ddb8a3300bdfd0181ca9619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-14 23:30:46</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>60fcd92ddb8a3300bdfd0181ca96192b</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-14 23:30:46</sys_created_on>
+        <sys_id>b92d992ddb8a3300bdfd0181ca9619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-14 23:30:46</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="If condition">60fcd92ddb8a3300bdfd0181ca96192b</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-14 23:30:46</sys_created_on>
+        <sys_id>752d992ddb8a3300bdfd0181ca9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-14 23:30:46</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="If condition">60fcd92ddb8a3300bdfd0181ca96192b</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-14 23:30:46</sys_created_on>
+        <sys_id>b12d992ddb8a3300bdfd0181ca9619f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-14 23:30:46</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Statement</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-14 23:32:10</sys_created_on>
+        <sys_id>8e4d552ddb8a3300bdfd0181ca9619ff</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-14 23:32:55</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="visitor process flow">b68cd52ddb8a3300bdfd0181ca961963</workflow_version>
+        <x>344</x>
+        <y>150</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=8e4d552ddb8a3300bdfd0181ca9619ff"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8e4d552ddb8a3300bdfd0181ca9619ff</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-14 23:32:10</sys_created_on>
+        <sys_id>aa7d992ddb8a3300bdfd0181ca961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-14 23:32:10</sys_updated_on>
+        <value>name=sowmya^email=reddysowmya@gmail.com^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8e4d552ddb8a3300bdfd0181ca9619ff</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-14 23:32:10</sys_created_on>
+        <sys_id>aa7d992ddb8a3300bdfd0181ca961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-14 23:32:10</sys_updated_on>
+        <value>name=sowmya^email=reddysowmya@gmail.com^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Statement">8e4d552ddb8a3300bdfd0181ca9619ff</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-14 23:32:10</sys_created_on>
+        <sys_id>e27d992ddb8a3300bdfd0181ca96193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-14 23:32:10</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">e27d992ddb8a3300bdfd0181ca96193a</condition>
+        <from display_value="Statement">8e4d552ddb8a3300bdfd0181ca9619ff</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-14 23:32:48</sys_created_on>
+        <sys_id>179ddd2ddb8a3300bdfd0181ca9619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-14 23:32:48</sys_updated_on>
+        <to display_value="End">44ec552ddb8a3300bdfd0181ca9619ea</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">b12d992ddb8a3300bdfd0181ca9619f0</condition>
+        <from display_value="If condition">60fcd92ddb8a3300bdfd0181ca96192b</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-14 23:32:23</sys_created_on>
+        <sys_id>1d8dd52ddb8a3300bdfd0181ca961943</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-14 23:32:23</sys_updated_on>
+        <to display_value="Statement">8e4d552ddb8a3300bdfd0181ca9619ff</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">00ec552ddb8a3300bdfd0181ca9619ea</condition>
+        <from display_value="Begin">08ec552ddb8a3300bdfd0181ca9619e9</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-14 23:29:33</sys_created_on>
+        <sys_id>4cec552ddb8a3300bdfd0181ca9619ea</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-14 23:31:08</sys_updated_on>
+        <to display_value="If condition">60fcd92ddb8a3300bdfd0181ca96192b</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">752d992ddb8a3300bdfd0181ca9619f1</condition>
+        <from display_value="If condition">60fcd92ddb8a3300bdfd0181ca96192b</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-14 23:32:40</sys_created_on>
+        <sys_id>559d152ddb8a3300bdfd0181ca961966</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-14 23:32:40</sys_updated_on>
+        <to display_value="End">44ec552ddb8a3300bdfd0181ca9619ea</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-14 23:29:33</sys_created_on>
+        <sys_id>c4ec552ddb8a3300bdfd0181ca9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-14 23:29:33</sys_updated_on>
+        <workflow_version display_value="visitor process flow">b68cd52ddb8a3300bdfd0181ca961963</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=8cec552ddb8a3300bdfd0181ca9619e8^sys_id!=b68cd52ddb8a3300bdfd0181ca961963">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

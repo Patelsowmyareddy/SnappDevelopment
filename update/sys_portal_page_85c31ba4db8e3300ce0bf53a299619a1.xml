@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2019-06-14 04:53:11">
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2019-06-15 04:25:29">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout>
         <order/>
@@ -9,7 +9,6 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-06-12 05:35:04</sys_created_on>
         <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
         <sys_id>85c31ba4db8e3300ce0bf53a299619a1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>catalog_sri_indu_it_service</sys_name>

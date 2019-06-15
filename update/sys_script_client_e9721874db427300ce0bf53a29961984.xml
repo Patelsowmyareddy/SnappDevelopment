@@ -31,7 +31,6 @@ var ctype=g_form.getValue("incident_contact_type");
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-06-12 10:14:58</sys_created_on>
         <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
         <sys_id>e9721874db427300ce0bf53a29961984</sys_id>
         <sys_mod_count>7</sys_mod_count>
         <sys_name>Test Onchange CS </sys_name>

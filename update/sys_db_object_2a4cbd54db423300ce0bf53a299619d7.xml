@@ -16,7 +16,7 @@
         <number_ref display_value="LOG">ef528a58db423300ce0bf53a29961911</number_ref>
         <provider_class/>
         <read_access>true</read_access>
-        <super_class display_value="Task" name="task">29c855b47420330078509adcc48c8788</super_class>
+        <super_class display_value="Task" name="task">79d5ed45db232300192d0181ca9619dd</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>

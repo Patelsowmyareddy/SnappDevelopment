@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog">
+    <sc_catalog action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <background_color>white</background_color>
+        <description/>
+        <desktop_continue_shopping/>
+        <desktop_home_page/>
+        <desktop_image/>
+        <editors/>
+        <enable_wish_list>false</enable_wish_list>
+        <manager/>
+        <sys_class_name>sc_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-14 23:43:09</sys_created_on>
+        <sys_id>38cf95addb8a3300bdfd0181ca961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>College service catalog</sys_name>
+        <sys_package display_value="SRIINDUIT" source="x_366656_sriinduit">83cbb554db423300ce0bf53a29961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SRIINDUIT">83cbb554db423300ce0bf53a29961923</sys_scope>
+        <sys_update_name>sc_catalog_38cf95addb8a3300bdfd0181ca961908</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-14 23:43:09</sys_updated_on>
+        <title>College service catalog</title>
+    </sc_catalog>
+    <sys_translated_text action="delete_multiple" query="documentkey=38cf95addb8a3300bdfd0181ca961908"/>
+</record_update>

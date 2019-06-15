@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Linux book">95b021eddb8a3300bdfd0181ca9619a7</sc_cat_item>
+        <sc_catalog display_value="College service catalog">38cf95addb8a3300bdfd0181ca961908</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-14 23:47:29</sys_created_on>
+        <sys_id>a2f0a5eddb8a3300bdfd0181ca961951</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>College service catalog.Linux book</sys_name>
+        <sys_package display_value="SRIINDUIT" source="x_366656_sriinduit">83cbb554db423300ce0bf53a29961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SRIINDUIT">83cbb554db423300ce0bf53a29961923</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_a2f0a5eddb8a3300bdfd0181ca961951</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-14 23:47:29</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>
