@@ -3,7 +3,7 @@
         <active>true</active>
         <availability>on_both</availability>
         <billable>false</billable>
-        <category display_value="Books">e01029addb8a3300bdfd0181ca9619e6</category>
+        <category display_value="books">e01029addb8a3300bdfd0181ca9619e6</category>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan/>

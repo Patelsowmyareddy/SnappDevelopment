@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Linux book">95b021eddb8a3300bdfd0181ca9619a7</sc_cat_item>
-        <sc_category display_value="Books">e01029addb8a3300bdfd0181ca9619e6</sc_category>
+        <sc_category display_value="books">e01029addb8a3300bdfd0181ca9619e6</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-06-14 23:47:29</sys_created_on>
