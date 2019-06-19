@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="Totti gang map">2dc5a7dedb463300bdfd0181ca96192d</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+if(gs.nil(source.u_email))
+	{
+		target.email=source.u_first_name+"."+source.u_last_name+"@sowmya.com";
+		
+	}
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-17 17:57:00</sys_created_on>
+        <sys_id>c1ac2fd2db863300bdfd0181ca961928</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="SRIINDUIT" source="x_366656_sriinduit">83cbb554db423300ce0bf53a29961923</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SRIINDUIT">83cbb554db423300ce0bf53a29961923</sys_scope>
+        <sys_update_name>sys_transform_script_c1ac2fd2db863300bdfd0181ca961928</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-18 04:20:53</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+</record_update>

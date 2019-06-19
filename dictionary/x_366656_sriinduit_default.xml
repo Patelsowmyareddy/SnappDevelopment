@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="default" max_length="40" name="x_366656_sriinduit_default" type="collection">
+        <element label="fest" max_length="200" name="fest" type="string"/>
+    </element>
+</database>

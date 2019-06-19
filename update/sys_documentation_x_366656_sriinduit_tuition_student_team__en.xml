@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Tuitions info" language="en" table="x_366656_sriinduit_tuition_student_team">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Tuitions info</label>
+            <language>en</language>
+            <name>x_366656_sriinduit_tuition_student_team</name>
+            <plural>Tuitions infos</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-17 17:14:12</sys_created_on>
+            <sys_id>1bb3a39edb463300bdfd0181ca96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Tuitions info</sys_name>
+            <sys_package display_value="SRIINDUIT" source="x_366656_sriinduit">83cbb554db423300ce0bf53a29961923</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SRIINDUIT">83cbb554db423300ce0bf53a29961923</sys_scope>
+            <sys_update_name>sys_documentation_x_366656_sriinduit_tuition_student_team__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-17 17:14:12</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

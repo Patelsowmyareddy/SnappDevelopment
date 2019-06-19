@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Tuitions info" max_length="40" name="x_366656_sriinduit_tuition_student_team" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Advance" label="Advance" max_length="40" name="u_advance" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Aprl" label="Aprl" max_length="40" name="u_aprl" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Aug" label="Aug" max_length="40" name="u_aug" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Class" label="Class" max_length="40" name="u_class" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Dec" label="Dec" max_length="40" name="u_dec" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Feb" label="Feb" max_length="40" name="u_feb" type="string"/>
+        <element attributes="import_attribute_name=Fee/month" label="Fee/month" max_length="40" name="u_fee_month" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Jan" label="Jan" max_length="40" name="u_jan" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Jul" label="Jul" max_length="40" name="u_jul" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Jun" label="Jun" max_length="40" name="u_jun" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Mar" label="Mar" max_length="40" name="u_mar" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Nov" label="Nov" max_length="40" name="u_nov" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Oct" label="Oct" max_length="40" name="u_oct" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Sep" label="Sep" max_length="40" name="u_sep" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Student Name" label="Student Name" max_length="40" name="u_student_name" type="string"/>
+    </element>
+</database>
